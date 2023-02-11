@@ -10,6 +10,6 @@ for _ in range(t):
             m = exp
     print(m)
     
-#explanation: (x and y) xor (x or y) can be simplified into x^y
+#explanation: (x and y) xor (x or y) can be simplified into x xor y
 # looking at the truth table of the xor operation we find out that two numbers that have similar binary representations when xor'ed give a small number
-# That's the reason we sort, to look at pairs which have a similar binary representations.
+# That's the reason we sort, to look at pairs which have a similar binary representations (consecutive ones).
